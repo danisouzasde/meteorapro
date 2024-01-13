@@ -1,0 +1,40 @@
+.texto-menor {
+  font-size: 12px;
+}
+.alinhamento {
+  display: flex !important;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-around;
+  flex-direction: column;
+}
+.div-facilidade {
+  max-width: 400px;
+}
+.btn-roxo {
+  background-color: #9353ff;
+  color: white;
+  border-radius: 0%;
+}
+.bi {
+  color: #daff01;
+}
+.mini-titulo {
+  color: #daff01;
+}
+.posicao {
+  top: 50%;
+}
+.form-size {
+  max-width: 60%;
+}
+
+@media (max-width: 768px) {
+  .posicao {
+    top: 50%;
+  }
+  .form-size {
+    max-width: 90%;
+  }
+}
